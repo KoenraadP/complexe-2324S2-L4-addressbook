@@ -24,7 +24,7 @@ namespace AddressBook
             //geopend bestand koppelen aan variabele path
             path = ofd.FileName;
             //alle regels uit tekstbestand in array lines stoppen
-            lines = File.ReadAllLines(path);
+            lines = File.ReadAllLines(path); 
 
             //lines doorlopen en ieder lijntje splitsen
             //daarna personen aanmaken en waarden toekennen
